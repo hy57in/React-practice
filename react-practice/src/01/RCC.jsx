@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
 class RCC extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
+  render() {
+    const text = '리액트';
+    return <div>{text}</div>;
+  }
 }
 
 export default RCC;
