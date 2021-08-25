@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import TodaysPlan from './03/TodaysPlan';
+import BooleanComponent from './03/BooleanComponent';
 
 class App extends Component {
   render() {
+    const name = 'hyojin';
     return (
       <div>
-        <TodaysPlan name="효진" />
+        <div>
+          지루함 : <BooleanComponent bored />
+        </div>
+        <div>
+          안지루함 : <BooleanComponent />
+        </div>
       </div>
     );
   }
