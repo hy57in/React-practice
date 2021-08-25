@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import BooleanComponent from './03/BooleanComponent';
+import RequiredComponet from './03/RequiredComponet';
+import StateExample from './03/StateExample';
 
 class App extends Component {
   render() {
-    const name = 'hyojin';
     return (
       <div>
-        <div>
-          지루함 : <BooleanComponent bored />
-        </div>
-        <div>
-          안지루함 : <BooleanComponent />
-        </div>
+        <StateExample />
       </div>
     );
   }
