@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "5.2.6",
-    "@storybook/addons": "5.2.6"
+    "@storybook/addons": "5.2.6",
+    "storybook-addon-jsx": "7.1.13"
   }
 }
