@@ -18,3 +18,5 @@
 - [ ] 생명주기 함수 응용! Counter 만들어보기
 - [ ] property, state, context
 - [ ] storybook
+- [ ] test코드 작성, enzyme
+- [ ] currying, compose
