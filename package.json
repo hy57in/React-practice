@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "aphrodite": "^2.4.0",
+    "react-with-styles": "^5.0.0",
+    "react-with-styles-interface-aphrodite": "^6.0.1",
     "shallow-equal": "^1.2.1"
   },
   "devDependencies": {
