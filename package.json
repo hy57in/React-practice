@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "shallow-equal": "^1.2.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "5.2.6",
+    "@storybook/addons": "5.2.6"
   }
 }
