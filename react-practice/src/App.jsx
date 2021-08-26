@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
-import BooleanComponent from './03/BooleanComponent';
-import RequiredComponet from './03/RequiredComponet';
-import StateExample from './03/StateExample';
-import LifecycleExample from './03/LifecycleExample';
+import React from 'react';
+import Counter from './03/Counter';
+import NewCounter from './03/NewCounter';
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { hasDestroyed: false };
+    this.state = { count: 0 };
+    this.resetCount = this.resetCount.bind(this);
   }
-  componentDidMount() {
-    this.setState({ hasDestroyed: true });
+  resetCount() {
+    this.setState(({ count }) => ({ count: count + 10 }));
   }
   render() {
     return (
       <div>
-        {this.state.hasDestroyed? null : <LifecycleExample />}
+        <div>
+          <Counter count={this.state.count} />
+        </div>
+        <div>
+          <NewCounter count={this.state.count} />
+        </div>
+        <button onClick={this.resetCount}>{this.state.count + 10}으로 초기화</button>
       </div>
     );
   }
