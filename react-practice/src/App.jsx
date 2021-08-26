@@ -1,21 +1,11 @@
 // src폴더안에 App.js을 연 다음 기존 내용을 모두 지우고 아래의 내용으로 작성해 보세요
 import React from 'react';
-import Counter3 from './03/Counter3';
+import Input from './03/Input';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 1,
-    };
-    // this 오류를 확인한 후에 아래 주석을 삭제해 주세요.
-    this.increateCount = this.increateCount.bind(this);
-  }
-  increateCount() {
-    this.setState(({ count }) => ({ count: count + 1 }));
-  }
   render() {
-    return <Counter3 count={this.state.count} onAdd={this.increateCount} />;
+    const name = '이름';
+    return <Input name={name} />;
   }
 }
 
