@@ -13,10 +13,12 @@
 - vscode 플러그인 Reactjs code snippets 을 설치하면 좋다
 
 ### 블로그 포스팅 또는 TIL 정리할 것
-
-- [ ] React의 생명주기 함수
+- [ ] 컴포넌트의 생명주기
 - [ ] 생명주기 함수 응용! Counter 만들어보기
 - [ ] property, state, context
 - [ ] storybook
 - [ ] test코드 작성, enzyme
 - [ ] currying, compose
+- [ ] HoC
+- [ ] context API
+- [ ] Redux
