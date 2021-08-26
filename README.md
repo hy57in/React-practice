@@ -7,3 +7,9 @@ cannot find module 오류가 계속 발생할때
 yarn으로 패키지가 제대로 설치되지 않는다면, node_modules 폴더를 삭제하고 다시 yarn 명령어를 실행하여 패키지를 설치한다.
 
 vscode 플러그인 Reactjs code snippets 을 설치하면 좋다
+
+property
+state
+
+react의 생명주기 함수
+Counter 만들어보기
